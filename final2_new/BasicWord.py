@@ -7,9 +7,7 @@ class BasicWord:
 
     def __repr__(self):
         return f"Составьте {len(self.sub_word)} слов  из слова  {self.basic_word} \n " \
-            #  f"{self.sub_word}" #for developer\checker
-
-
+               f"{self.sub_word}"  # for developer\checker
 
     def sub_word_cnt(self, sub_word):
         self.sub_word = sub_word
