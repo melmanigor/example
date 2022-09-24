@@ -13,8 +13,7 @@ import random
 
 
 def random_word():
-    response = requests.get(
-        "https://api.jsonbin.it/bins/nJielNQP")  # better to check with this file https://api.jsonbin.it/bins/3wGuN95p
+    response = requests.get("https://api.jsonbin.it/bins/3wGuN95p")
     data = response.json()
     words = []  # list of keys
     sub_new = []  # list of values
